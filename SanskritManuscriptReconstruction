@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "5de26a61",
+   "id": "77b69d75",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:18:48.885584Z",
-     "iopub.status.busy": "2024-07-08T05:18:48.885044Z",
-     "iopub.status.idle": "2024-07-08T05:18:49.776095Z",
-     "shell.execute_reply": "2024-07-08T05:18:49.774846Z"
+     "iopub.execute_input": "2024-07-12T07:57:11.357501Z",
+     "iopub.status.busy": "2024-07-12T07:57:11.357059Z",
+     "iopub.status.idle": "2024-07-12T07:57:12.286636Z",
+     "shell.execute_reply": "2024-07-12T07:57:12.285116Z"
     },
     "papermill": {
-     "duration": 0.903226,
-     "end_time": "2024-07-08T05:18:49.778813",
+     "duration": 0.941785,
+     "end_time": "2024-07-12T07:57:12.290789",
      "exception": false,
-     "start_time": "2024-07-08T05:18:48.875587",
+     "start_time": "2024-07-12T07:57:11.349004",
      "status": "completed"
     },
     "tags": []
@@ -27,8 +27,8 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "/kaggle/input/san-train-data/san.traineddata\n",
-      "/kaggle/input/sanskritmanuscript/manuScript_OCR.png\n"
+      "/kaggle/input/sanskritmanuscript/manuScript_OCR.png\n",
+      "/kaggle/input/san-train-data/san.traineddata\n"
      ]
     }
    ],
@@ -55,19 +55,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "7f4a2fd8",
+   "id": "338f9f0f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:18:49.795870Z",
-     "iopub.status.busy": "2024-07-08T05:18:49.795312Z",
-     "iopub.status.idle": "2024-07-08T05:19:12.350078Z",
-     "shell.execute_reply": "2024-07-08T05:19:12.349046Z"
+     "iopub.execute_input": "2024-07-12T07:57:12.305352Z",
+     "iopub.status.busy": "2024-07-12T07:57:12.304794Z",
+     "iopub.status.idle": "2024-07-12T07:57:37.004671Z",
+     "shell.execute_reply": "2024-07-12T07:57:37.003577Z"
     },
     "papermill": {
-     "duration": 22.566273,
-     "end_time": "2024-07-08T05:19:12.352818",
+     "duration": 24.710002,
+     "end_time": "2024-07-12T07:57:37.007324",
      "exception": false,
-     "start_time": "2024-07-08T05:18:49.786545",
+     "start_time": "2024-07-12T07:57:12.297322",
      "status": "completed"
     },
     "tags": []
@@ -77,9 +77,9 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "2024-07-08 05:19:01.989148: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n",
-      "2024-07-08 05:19:01.989327: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n",
-      "2024-07-08 05:19:02.132922: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"
+      "2024-07-12 07:57:25.466250: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n",
+      "2024-07-12 07:57:25.466411: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n",
+      "2024-07-12 07:57:25.613476: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"
      ]
     }
    ],
@@ -127,19 +127,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "5fd36ec8",
+   "id": "3129c9b8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:12.370926Z",
-     "iopub.status.busy": "2024-07-08T05:19:12.369645Z",
-     "iopub.status.idle": "2024-07-08T05:19:12.896627Z",
-     "shell.execute_reply": "2024-07-08T05:19:12.895418Z"
+     "iopub.execute_input": "2024-07-12T07:57:37.021933Z",
+     "iopub.status.busy": "2024-07-12T07:57:37.021256Z",
+     "iopub.status.idle": "2024-07-12T07:57:37.587769Z",
+     "shell.execute_reply": "2024-07-12T07:57:37.586108Z"
     },
     "papermill": {
-     "duration": 0.545285,
-     "end_time": "2024-07-08T05:19:12.905954",
+     "duration": 0.582377,
+     "end_time": "2024-07-12T07:57:37.596017",
      "exception": false,
-     "start_time": "2024-07-08T05:19:12.360669",
+     "start_time": "2024-07-12T07:57:37.013640",
      "status": "completed"
     },
     "tags": []
@@ -179,13 +179,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "26ad32ca",
+   "id": "ed669f8d",
    "metadata": {
     "papermill": {
-     "duration": 0.016857,
-     "end_time": "2024-07-08T05:19:12.955614",
+     "duration": 0.016228,
+     "end_time": "2024-07-12T07:57:37.628433",
      "exception": false,
-     "start_time": "2024-07-08T05:19:12.938757",
+     "start_time": "2024-07-12T07:57:37.612205",
      "status": "completed"
     },
     "tags": []
@@ -197,19 +197,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "4be98d74",
+   "id": "67c069db",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:12.991064Z",
-     "iopub.status.busy": "2024-07-08T05:19:12.990666Z",
-     "iopub.status.idle": "2024-07-08T05:19:13.319469Z",
-     "shell.execute_reply": "2024-07-08T05:19:13.318427Z"
+     "iopub.execute_input": "2024-07-12T07:57:37.662098Z",
+     "iopub.status.busy": "2024-07-12T07:57:37.660952Z",
+     "iopub.status.idle": "2024-07-12T07:57:37.986386Z",
+     "shell.execute_reply": "2024-07-12T07:57:37.984943Z"
     },
     "papermill": {
-     "duration": 0.354235,
-     "end_time": "2024-07-08T05:19:13.326557",
+     "duration": 0.348703,
+     "end_time": "2024-07-12T07:57:37.993207",
      "exception": false,
-     "start_time": "2024-07-08T05:19:12.972322",
+     "start_time": "2024-07-12T07:57:37.644504",
      "status": "completed"
     },
     "tags": []
@@ -242,19 +242,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "941857ee",
+   "id": "2faab6d0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:13.376044Z",
-     "iopub.status.busy": "2024-07-08T05:19:13.375630Z",
-     "iopub.status.idle": "2024-07-08T05:19:13.723625Z",
-     "shell.execute_reply": "2024-07-08T05:19:13.722109Z"
+     "iopub.execute_input": "2024-07-12T07:57:38.039314Z",
+     "iopub.status.busy": "2024-07-12T07:57:38.038916Z",
+     "iopub.status.idle": "2024-07-12T07:57:38.377260Z",
+     "shell.execute_reply": "2024-07-12T07:57:38.376021Z"
     },
     "papermill": {
-     "duration": 0.377883,
-     "end_time": "2024-07-08T05:19:13.728502",
+     "duration": 0.368133,
+     "end_time": "2024-07-12T07:57:38.383322",
      "exception": false,
-     "start_time": "2024-07-08T05:19:13.350619",
+     "start_time": "2024-07-12T07:57:38.015189",
      "status": "completed"
     },
     "tags": []
@@ -287,19 +287,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "0035147e",
+   "id": "a8771e68",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:13.792640Z",
-     "iopub.status.busy": "2024-07-08T05:19:13.792197Z",
-     "iopub.status.idle": "2024-07-08T05:19:14.011632Z",
-     "shell.execute_reply": "2024-07-08T05:19:14.010632Z"
+     "iopub.execute_input": "2024-07-12T07:57:38.443964Z",
+     "iopub.status.busy": "2024-07-12T07:57:38.443558Z",
+     "iopub.status.idle": "2024-07-12T07:57:38.732633Z",
+     "shell.execute_reply": "2024-07-12T07:57:38.731242Z"
     },
     "papermill": {
-     "duration": 0.25672,
-     "end_time": "2024-07-08T05:19:14.016537",
+     "duration": 0.324186,
+     "end_time": "2024-07-12T07:57:38.737303",
      "exception": false,
-     "start_time": "2024-07-08T05:19:13.759817",
+     "start_time": "2024-07-12T07:57:38.413117",
      "status": "completed"
     },
     "tags": []
@@ -332,13 +332,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ab6d5606",
+   "id": "31cea1b5",
    "metadata": {
     "papermill": {
-     "duration": 0.032472,
-     "end_time": "2024-07-08T05:19:14.084442",
+     "duration": 0.032978,
+     "end_time": "2024-07-12T07:57:38.805452",
      "exception": false,
-     "start_time": "2024-07-08T05:19:14.051970",
+     "start_time": "2024-07-12T07:57:38.772474",
      "status": "completed"
     },
     "tags": []
@@ -350,19 +350,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "e0f1b18e",
+   "id": "0c1a54ab",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:14.150869Z",
-     "iopub.status.busy": "2024-07-08T05:19:14.150471Z",
-     "iopub.status.idle": "2024-07-08T05:19:14.529490Z",
-     "shell.execute_reply": "2024-07-08T05:19:14.528404Z"
+     "iopub.execute_input": "2024-07-12T07:57:38.874102Z",
+     "iopub.status.busy": "2024-07-12T07:57:38.873671Z",
+     "iopub.status.idle": "2024-07-12T07:57:39.259490Z",
+     "shell.execute_reply": "2024-07-12T07:57:39.257659Z"
     },
     "papermill": {
-     "duration": 0.41731,
-     "end_time": "2024-07-08T05:19:14.534221",
+     "duration": 0.423656,
+     "end_time": "2024-07-12T07:57:39.263345",
      "exception": false,
-     "start_time": "2024-07-08T05:19:14.116911",
+     "start_time": "2024-07-12T07:57:38.839689",
      "status": "completed"
     },
     "tags": []
@@ -422,19 +422,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "c19d1dfd",
+   "id": "9b6c34c2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:14.612113Z",
-     "iopub.status.busy": "2024-07-08T05:19:14.611715Z",
-     "iopub.status.idle": "2024-07-08T05:19:14.905642Z",
-     "shell.execute_reply": "2024-07-08T05:19:14.904498Z"
+     "iopub.execute_input": "2024-07-12T07:57:39.344638Z",
+     "iopub.status.busy": "2024-07-12T07:57:39.344184Z",
+     "iopub.status.idle": "2024-07-12T07:57:39.570832Z",
+     "shell.execute_reply": "2024-07-12T07:57:39.569026Z"
     },
     "papermill": {
-     "duration": 0.33448,
-     "end_time": "2024-07-08T05:19:14.908317",
+     "duration": 0.269132,
+     "end_time": "2024-07-12T07:57:39.575480",
      "exception": false,
-     "start_time": "2024-07-08T05:19:14.573837",
+     "start_time": "2024-07-12T07:57:39.306348",
      "status": "completed"
     },
     "tags": []
@@ -469,19 +469,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "54135b4f",
+   "id": "1156f50d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:14.994013Z",
-     "iopub.status.busy": "2024-07-08T05:19:14.993186Z",
-     "iopub.status.idle": "2024-07-08T05:19:14.998433Z",
-     "shell.execute_reply": "2024-07-08T05:19:14.997393Z"
+     "iopub.execute_input": "2024-07-12T07:57:39.661558Z",
+     "iopub.status.busy": "2024-07-12T07:57:39.661149Z",
+     "iopub.status.idle": "2024-07-12T07:57:39.667105Z",
+     "shell.execute_reply": "2024-07-12T07:57:39.665814Z"
     },
     "papermill": {
-     "duration": 0.049084,
-     "end_time": "2024-07-08T05:19:15.000727",
+     "duration": 0.050759,
+     "end_time": "2024-07-12T07:57:39.669835",
      "exception": false,
-     "start_time": "2024-07-08T05:19:14.951643",
+     "start_time": "2024-07-12T07:57:39.619076",
      "status": "completed"
     },
     "tags": []
@@ -507,13 +507,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bed6dcf2",
+   "id": "b62ded09",
    "metadata": {
     "papermill": {
-     "duration": 0.040698,
-     "end_time": "2024-07-08T05:19:15.081788",
+     "duration": 0.040928,
+     "end_time": "2024-07-12T07:57:39.751365",
      "exception": false,
-     "start_time": "2024-07-08T05:19:15.041090",
+     "start_time": "2024-07-12T07:57:39.710437",
      "status": "completed"
     },
     "tags": []
@@ -525,19 +525,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "278fbaa9",
+   "id": "580fa3bf",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:15.163457Z",
-     "iopub.status.busy": "2024-07-08T05:19:15.163011Z",
-     "iopub.status.idle": "2024-07-08T05:19:16.359097Z",
-     "shell.execute_reply": "2024-07-08T05:19:16.357871Z"
+     "iopub.execute_input": "2024-07-12T07:57:39.835266Z",
+     "iopub.status.busy": "2024-07-12T07:57:39.834461Z",
+     "iopub.status.idle": "2024-07-12T07:57:40.954651Z",
+     "shell.execute_reply": "2024-07-12T07:57:40.953177Z"
     },
     "papermill": {
-     "duration": 1.240357,
-     "end_time": "2024-07-08T05:19:16.362051",
+     "duration": 1.165921,
+     "end_time": "2024-07-12T07:57:40.957637",
      "exception": false,
-     "start_time": "2024-07-08T05:19:15.121694",
+     "start_time": "2024-07-12T07:57:39.791716",
      "status": "completed"
     },
     "tags": []
@@ -558,19 +558,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "46b7c075",
+   "id": "5468669d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:16.445305Z",
-     "iopub.status.busy": "2024-07-08T05:19:16.444859Z",
-     "iopub.status.idle": "2024-07-08T05:19:18.900731Z",
-     "shell.execute_reply": "2024-07-08T05:19:18.899130Z"
+     "iopub.execute_input": "2024-07-12T07:57:41.039996Z",
+     "iopub.status.busy": "2024-07-12T07:57:41.039590Z",
+     "iopub.status.idle": "2024-07-12T07:57:43.348839Z",
+     "shell.execute_reply": "2024-07-12T07:57:43.347062Z"
     },
     "papermill": {
-     "duration": 2.500881,
-     "end_time": "2024-07-08T05:19:18.903834",
+     "duration": 2.353062,
+     "end_time": "2024-07-12T07:57:43.351836",
      "exception": false,
-     "start_time": "2024-07-08T05:19:16.402953",
+     "start_time": "2024-07-12T07:57:40.998774",
      "status": "completed"
     },
     "tags": []
@@ -589,19 +589,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "3141fba1",
+   "id": "bb1d403a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:18.986872Z",
-     "iopub.status.busy": "2024-07-08T05:19:18.986441Z",
-     "iopub.status.idle": "2024-07-08T05:19:20.139810Z",
-     "shell.execute_reply": "2024-07-08T05:19:20.138527Z"
+     "iopub.execute_input": "2024-07-12T07:57:43.433039Z",
+     "iopub.status.busy": "2024-07-12T07:57:43.432618Z",
+     "iopub.status.idle": "2024-07-12T07:57:44.523874Z",
+     "shell.execute_reply": "2024-07-12T07:57:44.522327Z"
     },
     "papermill": {
-     "duration": 1.197896,
-     "end_time": "2024-07-08T05:19:20.142417",
+     "duration": 1.135064,
+     "end_time": "2024-07-12T07:57:44.527018",
      "exception": false,
-     "start_time": "2024-07-08T05:19:18.944521",
+     "start_time": "2024-07-12T07:57:43.391954",
      "status": "completed"
     },
     "tags": []
@@ -622,19 +622,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "3cf087ec",
+   "id": "a37f4cef",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:20.227309Z",
-     "iopub.status.busy": "2024-07-08T05:19:20.226310Z",
-     "iopub.status.idle": "2024-07-08T05:19:22.597705Z",
-     "shell.execute_reply": "2024-07-08T05:19:22.596070Z"
+     "iopub.execute_input": "2024-07-12T07:57:44.613186Z",
+     "iopub.status.busy": "2024-07-12T07:57:44.612722Z",
+     "iopub.status.idle": "2024-07-12T07:57:46.814825Z",
+     "shell.execute_reply": "2024-07-12T07:57:46.813184Z"
     },
     "papermill": {
-     "duration": 2.417657,
-     "end_time": "2024-07-08T05:19:22.600750",
+     "duration": 2.251572,
+     "end_time": "2024-07-12T07:57:46.817727",
      "exception": false,
-     "start_time": "2024-07-08T05:19:20.183093",
+     "start_time": "2024-07-12T07:57:44.566155",
      "status": "completed"
     },
     "tags": []
@@ -649,19 +649,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "dadb88e0",
+   "id": "8734e99f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:22.685168Z",
-     "iopub.status.busy": "2024-07-08T05:19:22.684210Z",
-     "iopub.status.idle": "2024-07-08T05:19:23.850372Z",
-     "shell.execute_reply": "2024-07-08T05:19:23.848927Z"
+     "iopub.execute_input": "2024-07-12T07:57:46.897720Z",
+     "iopub.status.busy": "2024-07-12T07:57:46.897293Z",
+     "iopub.status.idle": "2024-07-12T07:57:47.966543Z",
+     "shell.execute_reply": "2024-07-12T07:57:47.965116Z"
     },
     "papermill": {
-     "duration": 1.212834,
-     "end_time": "2024-07-08T05:19:23.853272",
+     "duration": 1.112205,
+     "end_time": "2024-07-12T07:57:47.969387",
      "exception": false,
-     "start_time": "2024-07-08T05:19:22.640438",
+     "start_time": "2024-07-12T07:57:46.857182",
      "status": "completed"
     },
     "tags": []
@@ -685,19 +685,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "31ad2536",
+   "id": "298bd6b7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:23.936237Z",
-     "iopub.status.busy": "2024-07-08T05:19:23.935853Z",
-     "iopub.status.idle": "2024-07-08T05:19:23.941216Z",
-     "shell.execute_reply": "2024-07-08T05:19:23.940166Z"
+     "iopub.execute_input": "2024-07-12T07:57:48.050533Z",
+     "iopub.status.busy": "2024-07-12T07:57:48.049131Z",
+     "iopub.status.idle": "2024-07-12T07:57:48.055479Z",
+     "shell.execute_reply": "2024-07-12T07:57:48.054144Z"
     },
     "papermill": {
-     "duration": 0.0495,
-     "end_time": "2024-07-08T05:19:23.943497",
+     "duration": 0.049614,
+     "end_time": "2024-07-12T07:57:48.058066",
      "exception": false,
-     "start_time": "2024-07-08T05:19:23.893997",
+     "start_time": "2024-07-12T07:57:48.008452",
      "status": "completed"
     },
     "tags": []
@@ -711,19 +711,19 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "4c19f97d",
+   "id": "cca9c73f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:24.027620Z",
-     "iopub.status.busy": "2024-07-08T05:19:24.027057Z",
-     "iopub.status.idle": "2024-07-08T05:19:24.032672Z",
-     "shell.execute_reply": "2024-07-08T05:19:24.031628Z"
+     "iopub.execute_input": "2024-07-12T07:57:48.139360Z",
+     "iopub.status.busy": "2024-07-12T07:57:48.138075Z",
+     "iopub.status.idle": "2024-07-12T07:57:48.145125Z",
+     "shell.execute_reply": "2024-07-12T07:57:48.143582Z"
     },
     "papermill": {
-     "duration": 0.050264,
-     "end_time": "2024-07-08T05:19:24.034896",
+     "duration": 0.050526,
+     "end_time": "2024-07-12T07:57:48.147539",
      "exception": false,
-     "start_time": "2024-07-08T05:19:23.984632",
+     "start_time": "2024-07-12T07:57:48.097013",
      "status": "completed"
     },
     "tags": []
@@ -745,19 +745,19 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "58ff0a0f",
+   "id": "a9a72086",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-07-08T05:19:24.117969Z",
-     "iopub.status.busy": "2024-07-08T05:19:24.117599Z",
-     "iopub.status.idle": "2024-07-08T05:19:27.980851Z",
-     "shell.execute_reply": "2024-07-08T05:19:27.979775Z"
+     "iopub.execute_input": "2024-07-12T07:57:48.229799Z",
+     "iopub.status.busy": "2024-07-12T07:57:48.229406Z",
+     "iopub.status.idle": "2024-07-12T07:57:52.121282Z",
+     "shell.execute_reply": "2024-07-12T07:57:52.120134Z"
     },
     "papermill": {
-     "duration": 3.908193,
-     "end_time": "2024-07-08T05:19:27.983804",
+     "duration": 3.936099,
+     "end_time": "2024-07-12T07:57:52.124172",
      "exception": false,
-     "start_time": "2024-07-08T05:19:24.075611",
+     "start_time": "2024-07-12T07:57:48.188073",
      "status": "completed"
     },
     "tags": []
@@ -822,20 +822,200 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "a1f1d858",
+   "execution_count": 18,
+   "id": "e800d475",
    "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-07-12T07:57:52.206646Z",
+     "iopub.status.busy": "2024-07-12T07:57:52.206248Z",
+     "iopub.status.idle": "2024-07-12T07:58:06.884506Z",
+     "shell.execute_reply": "2024-07-12T07:58:06.883150Z"
+    },
     "papermill": {
-     "duration": 0.040849,
-     "end_time": "2024-07-08T05:19:28.065594",
+     "duration": 14.722055,
+     "end_time": "2024-07-12T07:58:06.887284",
      "exception": false,
-     "start_time": "2024-07-08T05:19:28.024745",
+     "start_time": "2024-07-12T07:57:52.165229",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [],
-   "source": []
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Collecting pyspellchecker\r\n",
+      "  Downloading pyspellchecker-0.8.1-py3-none-any.whl.metadata (9.4 kB)\r\n",
+      "Downloading pyspellchecker-0.8.1-py3-none-any.whl (6.8 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.8/6.8 MB\u001b[0m \u001b[31m61.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hInstalling collected packages: pyspellchecker\r\n",
+      "Successfully installed pyspellchecker-0.8.1\r\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Install the spellchecker package\n",
+    "!pip install pyspellchecker"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "afdbc8ef",
+   "metadata": {
+    "papermill": {
+     "duration": 0.040799,
+     "end_time": "2024-07-12T07:58:06.968079",
+     "exception": false,
+     "start_time": "2024-07-12T07:58:06.927280",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# NLP  for Text Cleaning(Error Correction,Normalizing Text)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "95eb72f6",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-07-12T07:58:07.051878Z",
+     "iopub.status.busy": "2024-07-12T07:58:07.051374Z",
+     "iopub.status.idle": "2024-07-12T07:58:07.250831Z",
+     "shell.execute_reply": "2024-07-12T07:58:07.249361Z"
+    },
+    "papermill": {
+     "duration": 0.244435,
+     "end_time": "2024-07-12T07:58:07.253327",
+     "exception": false,
+     "start_time": "2024-07-12T07:58:07.008892",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[('हरा०वा4', ''), ('=', ''), ('\\n', ''), ('५', ''), ('णात्मनाधशरामेरामानुज्ञसीतोभरतभरनानुजफसुयीववायुखल', ''), ('च', ''), ('जणमामिषुनःपुनजओकूजलेरामराभेति', ''), ('\\n', ''), ('।', ''), ('धुरेमथुराक्षरेधजारुत्युकवितग्णरव', ''), ('वेदेवाप्मी', ''), ('किकाकिल', ''), ('वाल्मीके', ''), ('सनिसिदस्यकवितावन', ''), ('चारिणः', ''), ('\\n\\n', ''), ('चरमकथानादकोनयातिषरोमृनि', ''), (')', ''), ('्यप्चिवन्सततेरमचरिता्तसागरःजन्टतसलेसुनिवेदे', ''), ('चाचेतसमक', ''), ('\\n', ''), ('॥ष्यगोष्यदीरूतवारीओेमशकीरुतरासतसेरामायणमहामालारलवेदेनिस्वत्मजा', ''), ('शभननान', ''), ('दनेवीरे', ''), ('जान', ''), ('\\n', ''), ('क', ''), ('शेकनाशनेषकषीशम', ''), ('शहतारेवेदेखकाभयेकरीगाञ्खेष्युसिधोःसलिखसली', ''), ('ले', ''), ('य', ''), ('-', ''), ('कोकवहिजनकात्मज', ''), ('\\n', ''), ('५', ''), ('जादायनेनेवददादस्कानमामितेजाजलिरोजनेयक्नमनोनवेमारु', ''), ('ततुल्पवेगेजिते', ''), ('टियंवुदिमतो', ''), ('वरिष', ''), ('\\n', ''), ('॥वातात्मजे', ''), ('वानरयूयमुरयछरीरामदूते', ''), ('मनसास्मरामि५', ''), ('<', ''), ('॥रामायरामभद्रायरामचद्रायेवे', ''), ('५', ''), (')', ''), ('रधुनायो', ''), ('\\n', ''), ('नाथायसीलायात्पतेये', ''), ('नमअर्नाजितभगवनातेनहरिणाजकघारिण्रअजेनबिनश्चस्सपणनियुणोन', ''), ('गुप', ''), ('\\n\\n', ''), ('२२', ''), ('डतपःस्वाध्यायनिरेनेतपस्वीवाग्बिदोवसनारदेपरिपशद्धवाल्मीकिमनिषेगव)रेकोन्वंसिनसभतेखे', ''), ('\\n\\n', ''), ('॥', ''), ('रम', ''), ('\\n', ''), ('वानकश्चवीयेवानणएधमन्ञश्चर', ''), ('त्त', ''), ('श्चसत्यवाक्यारट', ''), ('चतभ', ''), ('वारिजेणचकेो', ''), ('युक्त', ''), ('.', ''), ('सेग्तेषुकोहित', ''), ('।', ''), ('वि', ''), ('\\n\\n', ''), ('॥१', '')]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import spacy\n",
+    "\n",
+    "# Load a pre-trained POS tagging model for Sanskrit if available\n",
+    "nlp = spacy.blank('sa')  # 'sa' is the language code for Sanskrit, replace 'xx' with 'sa'\n",
+    "\n",
+    "def pos_tagging(text):\n",
+    "    doc = nlp(text)\n",
+    "    pos_tags = [(token.text, token.pos_) for token in doc]\n",
+    "    return pos_tags\n",
+    "\n",
+    "# Replace this with actual OCR output or any Sanskrit sentence\n",
+    "text = \"\"\"हरा०वा4 =\n",
+    "५ णात्मनाधशरामेरामानुज्ञसीतोभरतभरनानुजफसुयीववायुखल च जणमामिषुनःपुनजओकूजलेरामराभेति\n",
+    "। धुरेमथुराक्षरेधजारुत्युकवितग्णरव वेदेवाप्मी किकाकिल वाल्मीके सनिसिदस्यकवितावन चारिणः\n",
+    "\n",
+    "चरमकथानादकोनयातिषरोमृनि) ्यप्चिवन्सततेरमचरिता्तसागरःजन्टतसलेसुनिवेदे चाचेतसमक\n",
+    "॥ष्यगोष्यदीरूतवारीओेमशकीरुतरासतसेरामायणमहामालारलवेदेनिस्वत्मजा शभननान दनेवीरे जान\n",
+    "क शेकनाशनेषकषीशम शहतारेवेदेखकाभयेकरीगाञ्खेष्युसिधोःसलिखसली ले य-कोकवहिजनकात्मज\n",
+    "५ जादायनेनेवददादस्कानमामितेजाजलिरोजनेयक्नमनोनवेमारु ततुल्पवेगेजिते टियंवुदिमतो वरिष\n",
+    "॥वातात्मजे वानरयूयमुरयछरीरामदूते मनसास्मरामि५<॥रामायरामभद्रायरामचद्रायेवे ५) रधुनायो\n",
+    "नाथायसीलायात्पतेये नमअर्नाजितभगवनातेनहरिणाजकघारिण्रअजेनबिनश्चस्सपणनियुणोन गुप\n",
+    "\n",
+    "२२ डतपःस्वाध्यायनिरेनेतपस्वीवाग्बिदोवसनारदेपरिपशद्धवाल्मीकिमनिषेगव)रेकोन्वंसिनसभतेखे\n",
+    "\n",
+    "॥ रम\n",
+    "वानकश्चवीयेवानणएधमन्ञश्चर त्त श्चसत्यवाक्यारट चतभ वारिजेणचकेो युक्त. सेग्तेषुकोहित। वि\n",
+    "\n",
+    "॥१\"\"\"\n",
+    "\n",
+    "pos_tags = pos_tagging(text)\n",
+    "print(pos_tags)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "5128aba8",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-07-12T07:58:07.336538Z",
+     "iopub.status.busy": "2024-07-12T07:58:07.335600Z",
+     "iopub.status.idle": "2024-07-12T07:58:07.431044Z",
+     "shell.execute_reply": "2024-07-12T07:58:07.429625Z"
+    },
+    "papermill": {
+     "duration": 0.140004,
+     "end_time": "2024-07-12T07:58:07.433536",
+     "exception": false,
+     "start_time": "2024-07-12T07:58:07.293532",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "POS Tags: [('हरा०वा4', ''), ('=', ''), ('\\n', ''), ('५', ''), ('णात्मनाधशरामेरामानुज्ञसीतोभरतभरनानुजफसुयीववायुखल', ''), ('च', ''), ('जणमामिषुनःपुनजओकूजलेरामराभेति', ''), ('\\n', ''), ('।', ''), ('धुरेमथुराक्षरेधजारुत्युकवितग्णरव', ''), ('वेदेवाप्मी', ''), ('किकाकिल', ''), ('वाल्मीके', ''), ('सनिसिदस्यकवितावन', ''), ('चारिणः', ''), ('\\n\\n', ''), ('चरमकथानादकोनयातिषरोमृनि', ''), (')', ''), ('्यप्चिवन्सततेरमचरिता्तसागरःजन्टतसलेसुनिवेदे', ''), ('चाचेतसमक', ''), ('\\n', ''), ('॥ष्यगोष्यदीरूतवारीओेमशकीरुतरासतसेरामायणमहामालारलवेदेनिस्वत्मजा', ''), ('शभननान', ''), ('दनेवीरे', ''), ('जान', ''), ('\\n', ''), ('क', ''), ('शेकनाशनेषकषीशम', ''), ('शहतारेवेदेखकाभयेकरीगाञ्खेष्युसिधोःसलिखसली', ''), ('ले', ''), ('य', ''), ('-', ''), ('कोकवहिजनकात्मज', ''), ('\\n', ''), ('५', ''), ('जादायनेनेवददादस्कानमामितेजाजलिरोजनेयक्नमनोनवेमारु', ''), ('ततुल्पवेगेजिते', ''), ('टियंवुदिमतो', ''), ('वरिष', ''), ('\\n', ''), ('॥वातात्मजे', ''), ('वानरयूयमुरयछरीरामदूते', ''), ('मनसास्मरामि५', ''), ('<', ''), ('॥रामायरामभद्रायरामचद्रायेवे', ''), ('५', ''), (')', ''), ('रधुनायो', ''), ('\\n', ''), ('नाथायसीलायात्पतेये', ''), ('नमअर्नाजितभगवनातेनहरिणाजकघारिण्रअजेनबिनश्चस्सपणनियुणोन', ''), ('गुप', ''), ('\\n\\n', ''), ('२२', ''), ('डतपःस्वाध्यायनिरेनेतपस्वीवाग्बिदोवसनारदेपरिपशद्धवाल्मीकिमनिषेगव)रेकोन्वंसिनसभतेखे', ''), ('\\n\\n', ''), ('॥', ''), ('रम', ''), ('\\n', ''), ('वानकश्चवीयेवानणएधमन्ञश्चर', ''), ('त्त', ''), ('श्चसत्यवाक्यारट', ''), ('चतभ', ''), ('वारिजेणचकेो', ''), ('युक्त', ''), ('.', ''), ('सेग्तेषुकोहित', ''), ('।', ''), ('वि', ''), ('\\n\\n', ''), ('॥१', '')]\n",
+      "\n",
+      "\n",
+      "Lemmas: [('हरा०वा4', '', ''), ('=', '', ''), ('\\n', '', ''), ('५', '', ''), ('णात्मनाधशरामेरामानुज्ञसीतोभरतभरनानुजफसुयीववायुखल', '', ''), ('च', '', ''), ('जणमामिषुनःपुनजओकूजलेरामराभेति', '', ''), ('\\n', '', ''), ('।', '', ''), ('धुरेमथुराक्षरेधजारुत्युकवितग्णरव', '', ''), ('वेदेवाप्मी', '', ''), ('किकाकिल', '', ''), ('वाल्मीके', '', ''), ('सनिसिदस्यकवितावन', '', ''), ('चारिणः', '', ''), ('\\n\\n', '', ''), ('चरमकथानादकोनयातिषरोमृनि', '', ''), (')', '', ''), ('्यप्चिवन्सततेरमचरिता्तसागरःजन्टतसलेसुनिवेदे', '', ''), ('चाचेतसमक', '', ''), ('\\n', '', ''), ('॥ष्यगोष्यदीरूतवारीओेमशकीरुतरासतसेरामायणमहामालारलवेदेनिस्वत्मजा', '', ''), ('शभननान', '', ''), ('दनेवीरे', '', ''), ('जान', '', ''), ('\\n', '', ''), ('क', '', ''), ('शेकनाशनेषकषीशम', '', ''), ('शहतारेवेदेखकाभयेकरीगाञ्खेष्युसिधोःसलिखसली', '', ''), ('ले', '', ''), ('य', '', ''), ('-', '', ''), ('कोकवहिजनकात्मज', '', ''), ('\\n', '', ''), ('५', '', ''), ('जादायनेनेवददादस्कानमामितेजाजलिरोजनेयक्नमनोनवेमारु', '', ''), ('ततुल्पवेगेजिते', '', ''), ('टियंवुदिमतो', '', ''), ('वरिष', '', ''), ('\\n', '', ''), ('॥वातात्मजे', '', ''), ('वानरयूयमुरयछरीरामदूते', '', ''), ('मनसास्मरामि५', '', ''), ('<', '', ''), ('॥रामायरामभद्रायरामचद्रायेवे', '', ''), ('५', '', ''), (')', '', ''), ('रधुनायो', '', ''), ('\\n', '', ''), ('नाथायसीलायात्पतेये', '', ''), ('नमअर्नाजितभगवनातेनहरिणाजकघारिण्रअजेनबिनश्चस्सपणनियुणोन', '', ''), ('गुप', '', ''), ('\\n\\n', '', ''), ('२२', '', ''), ('डतपःस्वाध्यायनिरेनेतपस्वीवाग्बिदोवसनारदेपरिपशद्धवाल्मीकिमनिषेगव)रेकोन्वंसिनसभतेखे', '', ''), ('\\n\\n', '', ''), ('॥', '', ''), ('रम', '', ''), ('\\n', '', ''), ('वानकश्चवीयेवानणएधमन्ञश्चर', '', ''), ('त्त', '', ''), ('श्चसत्यवाक्यारट', '', ''), ('चतभ', '', ''), ('वारिजेणचकेो', '', ''), ('युक्त', '', ''), ('.', '', ''), ('सेग्तेषुकोहित', '', ''), ('।', '', ''), ('वि', '', ''), ('\\n\\n', '', ''), ('॥१', '', '')]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import spacy\n",
+    "\n",
+    "# Load a blank Sanskrit model\n",
+    "nlp = spacy.blank('sa')  # Use 'sa' for Sanskrit\n",
+    "\n",
+    "def pos_tagging(text):\n",
+    "    doc = nlp(text)\n",
+    "    pos_tags = [(token.text, token.pos_) for token in doc]\n",
+    "    return doc, pos_tags\n",
+    "\n",
+    "def lemmatize_text(doc):\n",
+    "    lemmas = [(token.text, token.lemma_, token.pos_) for token in doc]\n",
+    "    return lemmas\n",
+    "\n",
+    "# Example text (use actual OCR output here)\n",
+    "text = \"\"\"हरा०वा4 =\n",
+    "५ णात्मनाधशरामेरामानुज्ञसीतोभरतभरनानुजफसुयीववायुखल च जणमामिषुनःपुनजओकूजलेरामराभेति\n",
+    "। धुरेमथुराक्षरेधजारुत्युकवितग्णरव वेदेवाप्मी किकाकिल वाल्मीके सनिसिदस्यकवितावन चारिणः\n",
+    "\n",
+    "चरमकथानादकोनयातिषरोमृनि) ्यप्चिवन्सततेरमचरिता्तसागरःजन्टतसलेसुनिवेदे चाचेतसमक\n",
+    "॥ष्यगोष्यदीरूतवारीओेमशकीरुतरासतसेरामायणमहामालारलवेदेनिस्वत्मजा शभननान दनेवीरे जान\n",
+    "क शेकनाशनेषकषीशम शहतारेवेदेखकाभयेकरीगाञ्खेष्युसिधोःसलिखसली ले य-कोकवहिजनकात्मज\n",
+    "५ जादायनेनेवददादस्कानमामितेजाजलिरोजनेयक्नमनोनवेमारु ततुल्पवेगेजिते टियंवुदिमतो वरिष\n",
+    "॥वातात्मजे वानरयूयमुरयछरीरामदूते मनसास्मरामि५<॥रामायरामभद्रायरामचद्रायेवे ५) रधुनायो\n",
+    "नाथायसीलायात्पतेये नमअर्नाजितभगवनातेनहरिणाजकघारिण्रअजेनबिनश्चस्सपणनियुणोन गुप\n",
+    "\n",
+    "२२ डतपःस्वाध्यायनिरेनेतपस्वीवाग्बिदोवसनारदेपरिपशद्धवाल्मीकिमनिषेगव)रेकोन्वंसिनसभतेखे\n",
+    "\n",
+    "॥ रम\n",
+    "वानकश्चवीयेवानणएधमन्ञश्चर त्त श्चसत्यवाक्यारट चतभ वारिजेणचकेो युक्त. सेग्तेषुकोहित। वि\n",
+    "\n",
+    "॥१\"\"\"\n",
+    "\n",
+    "# POS Tagging\n",
+    "doc, pos_tags = pos_tagging(text)\n",
+    "print(\"POS Tags:\", pos_tags)\n",
+    "\n",
+    "print()\n",
+    "print() \n",
+    "\n",
+    "# Lemmatization\n",
+    "lemmas = lemmatize_text(doc)\n",
+    "print(\"Lemmas:\", lemmas)\n"
+   ]
   }
  ],
  "metadata": {
@@ -878,14 +1058,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 45.13231,
-   "end_time": "2024-07-08T05:19:31.099835",
+   "duration": 62.251519,
+   "end_time": "2024-07-12T07:58:10.520497",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-07-08T05:18:45.967525",
+   "start_time": "2024-07-12T07:57:08.268978",
    "version": "2.5.0"
   }
  },
